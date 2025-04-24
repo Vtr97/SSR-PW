@@ -1,0 +1,29 @@
+{
+  "name": "ssr-pw",
+  "version": "1.0.0",
+  "description": "Devcontainer (Node + TypeScript) com recursos iniciais para a aula de laboratório.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vtr97/SSR-PW.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vtr97/SSR-PW/issues"
+  },
+  "homepage": "https://github.com/Vtr97/SSR-PW#readme",
+  "dependencies": {
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.14.1",
+    "express": "^5.1.0",
+    "express-handlebars": "^8.0.2",
+    "node": "^22.15.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}

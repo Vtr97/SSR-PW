@@ -1,0 +1,15 @@
+<h1>Product List</h1>
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Desc</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each products}}
+            {{> product}}
+        {{/each}}
+    </tbody>
+</table>
